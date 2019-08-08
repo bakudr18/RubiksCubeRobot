@@ -8,4 +8,9 @@ Rubik's Cube Robot can solve the rubik's cube around 90 seconds including detect
 You can find more detail here in Chinese.
 
 ## Installation
-Follow [86duino](http://www.86duino.com/?page_id=2844) and [Maixpy](https://maixpy.sipeed.com/en/) website to set the environment. Upload the main.ino and colorclassification.py into 86Duino and Maixduino respectively.  
+Follow [86duino](http://www.86duino.com/?page_id=2844) and [Maixpy](https://maixpy.sipeed.com/en/) website to set the environment. Upload the main.ino and colorclassification.py into 86Duino and Maixduino respectively.
+
+## Limits
+* OV2640 camera's maximum exposure time is 120190us. That's why we added the led strip.
+* It's important to fix the lighting environment when detecting colors, so we added the cover on top of the camera.
+* Color classification algorithm classifies color white first because white and black are in different dimension of color space than others. Therefore, rubik's cube must have the white color.

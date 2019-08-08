@@ -8,4 +8,4 @@ Rubik's Cube Robot can solve the rubik's cube around 90 seconds including detect
 You can find more detail here in Chinese.
 
 ## Installation
-Follow [86duino](http://www.86duino.com/?page_id=2844) and [Maixpy](https://maixpy.sipeed.com/en/) website to set the environment. 
+Follow [86duino](http://www.86duino.com/?page_id=2844) and [Maixpy](https://maixpy.sipeed.com/en/) website to set the environment. Upload the main.ino and colorclassification.py into 86Duino and Maixduino respectively.  

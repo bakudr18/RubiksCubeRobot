@@ -12,5 +12,5 @@ Follow [86duino](http://www.86duino.com/?page_id=2844) and [Maixpy](https://maix
 
 ## Limits
 * OV2640 camera's maximum exposure time is 120190us. That's why we added the led strip.
-* It's important to fix the lighting environment when detecting colors, so we added the cover on top of the camera.
+* It's important to fix the lighting environment when detecting colors, so we added the cover on top of the camera. However, we should still avoid direct illumination of the lens.
 * Color classification algorithm classifies color white first because white and black are in different dimension of color space than others. Therefore, rubik's cube must have the white color.

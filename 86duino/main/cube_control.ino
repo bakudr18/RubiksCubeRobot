@@ -179,7 +179,8 @@ void showFace(int tpin1, int tpin2){
   doubleRun(tpin1, bound[tpin1][UPPER], tpin2, bound[tpin2][UPPER], DELAY_TIME);
   doubleRun(spin1, bound[spin1][LOWER], spin2, bound[spin2][LOWER], DELAY_TIME);
   fixedCube(tlatch1, tlatch2, false);
-  doubleRun(slatch1, bound[slatch1][UPPER], slatch2, bound[slatch2][UPPER], DELAY_TIME);
+  //doubleRun(slatch1, bound[slatch1][UPPER], slatch2, bound[slatch2][UPPER], DELAY_TIME);
+  doubleRun(slatch1, bound[slatch1][LOWER] + 500, slatch2, bound[slatch2][LOWER] + 500, DELAY_TIME);
   waitUntilSnapshot();  // snapshot
   doubleRun(slatch1, bound[slatch1][LOWER], slatch2, bound[slatch2][LOWER], DELAY_TIME);
 
